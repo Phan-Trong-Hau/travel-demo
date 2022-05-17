@@ -13,12 +13,11 @@ function App() {
       <Router className='App'>
         <Navbar></Navbar>
         <Routes>
-        <Route path='/' element={<Home/>}>
           <Route index element={<Home/>}/>
-          <Route path='products' element={<Products/>}/>
-          <Route path='services' element={<Services/>}/>
-          <Route path='sign-up' element={<SignUp/>}/>
-        </Route>
+          <Route path='/home' element={<Home/>}/>
+          <Route path='/products' element={<Products/>}/>
+          <Route path='/services' element={<Services/>}/>
+          <Route path='/sign-up' element={<SignUp/>}/>
         </Routes>
       </Router>
     </>
