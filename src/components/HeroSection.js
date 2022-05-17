@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
-import video2 from './assets/videos/video-2.mp4';
+import video2 from '../../src/components/assets/videos/video-2.mp4';
 
 
 const HeroSection = () => {

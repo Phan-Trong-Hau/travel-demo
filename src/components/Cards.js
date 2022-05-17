@@ -1,11 +1,11 @@
 import React from 'react';
 import CardItem from './CardItem';
 import './Cards.css';
-import img9 from './assets/images/img-9.jpg';
-import img2 from './assets/images/img-2.jpg';
-import img3 from './assets/images/img-3.jpg';
-import img4 from './assets/images/img-4.jpg';
-import img8 from './assets/images/img-8.jpg';
+import img9 from '../../src/components/assets/images/img-9.jpg';
+import img2 from '../../src/components/assets/images/img-2.jpg';
+import img3 from '../../src/components/assets/images/img-3.jpg';
+import img4 from '../../src/components/assets/images/img-4.jpg';
+import img8 from '../../src/components/assets/images/img-8.jpg';
 
 const Cards = () => {
     return (
